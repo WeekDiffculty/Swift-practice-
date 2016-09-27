@@ -1,0 +1,6 @@
+framework module Pods____ {
+  umbrella header "Pods-套接字-umbrella.h"
+
+  export *
+  module * { export * }
+}

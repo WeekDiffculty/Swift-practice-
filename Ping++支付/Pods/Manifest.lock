@@ -1,0 +1,23 @@
+PODS:
+  - Pingpp/Alipay (2.2.7):
+    - Pingpp/Core
+  - Pingpp/Core (2.2.7):
+    - Pingpp/Network
+  - Pingpp/Network (2.2.7)
+  - Pingpp/One (2.2.7):
+    - Pingpp/Core
+    - Pingpp/Network
+  - Pingpp/UnionPay (2.2.7):
+    - Pingpp/Core
+
+DEPENDENCIES:
+  - Pingpp/Alipay
+  - Pingpp/One
+  - Pingpp/UnionPay
+
+SPEC CHECKSUMS:
+  Pingpp: f451ea2e0f80965d84909f87cd3f5b4938c00d7a
+
+PODFILE CHECKSUM: 10d7bba0c20ad5eb221c88223e3a0ca90eb364f8
+
+COCOAPODS: 1.0.1

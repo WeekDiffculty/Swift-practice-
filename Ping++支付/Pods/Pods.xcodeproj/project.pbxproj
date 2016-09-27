@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34180CE0A067120AD549F5B5D62FCCDF /* Pods-Ping++支付-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104F38AFBB3F33A58E6B712CDF4A730 /* Pods-Ping++支付-dummy.m */; };
+		D53EFC5D9DD3B27BBC35A5ED661EF60F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014CA246F0C2733DFAE7BEF88A9CCAE8 /* libpingpp+network.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpingpp+network.a"; path = "lib/Dependencies/Network/libpingpp+network.a"; sourceTree = "<group>"; };
+		02B02264F156D6A547C6048EE6916D17 /* libpingpp+up.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpingpp+up.a"; path = "lib/Channels/UnionPay/libpingpp+up.a"; sourceTree = "<group>"; };
+		1104F38AFBB3F33A58E6B712CDF4A730 /* Pods-Ping++支付-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ping++支付-dummy.m"; sourceTree = "<group>"; };
+		2AB68204DBF211A2407D69AE10EA6B92 /* libPods-Ping++支付.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ping++支付.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3518942243D3BADD47FEC35FEE2CABAF /* libpingppcore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libpingppcore.a; path = lib/libpingppcore.a; sourceTree = "<group>"; };
+		367D76BB4F363932DD72451B305765A9 /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = lib/Channels/UnionPay/libPaymentControl.a; sourceTree = "<group>"; };
+		3A3ECAABB1EC601ED28350D6E20C38C1 /* Pods-Ping++支付-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ping++支付-frameworks.sh"; sourceTree = "<group>"; };
+		4772432E52E76A13D560867596772372 /* Pods-Ping++支付.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ping++支付.release.xcconfig"; sourceTree = "<group>"; };
+		5FAEA2C6E3936BBD79963755152ACD6F /* libpingpp+alipay.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpingpp+alipay.a"; path = "lib/Channels/Alipay/libpingpp+alipay.a"; sourceTree = "<group>"; };
+		6124E43EDD91707C62E9AD6EDE20DCD3 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = lib/Channels/Alipay/AlipaySDK.framework; sourceTree = "<group>"; };
+		6A4B47714C2625B438A1977FA5F2BD83 /* Pods-Ping++支付-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ping++支付-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D8D34EC88E167FAF4BDD3B9F5D55EEA /* libpingpp+one.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpingpp+one.a"; path = "lib/One/libpingpp+one.a"; sourceTree = "<group>"; };
+		933288FAA4114A774EA5515AB95E94DC /* Pingpp.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Pingpp.bundle; path = lib/Pingpp.bundle; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDB31A38B242EC8A8A1BBB57D351CCA /* Pingpp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Pingpp.h; path = lib/Pingpp.h; sourceTree = "<group>"; };
+		ABD83FF087F2AD5CD2E75E9EB34958B2 /* Pingpp+One.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pingpp+One.h"; path = "lib/One/Pingpp+One.h"; sourceTree = "<group>"; };
+		B0882A311111800A230F5A2686049417 /* Pods-Ping++支付-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ping++支付-resources.sh"; sourceTree = "<group>"; };
+		B8B3EEA6EB7A37BF2EB00DFB55F2A54C /* Pods-Ping++支付.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ping++支付.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFCF9FEB542EFED88C9C9430B70F04C2 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = lib/Channels/Alipay/AlipaySDK.bundle; sourceTree = "<group>"; };
+		EB9B51B2947A08EDE296A3248C060F2E /* Pods-Ping++支付-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ping++支付-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6ED23B08A6477FA0239D96181134A5A /* PingppURLResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingppURLResponse.h; path = lib/Dependencies/Network/PingppURLResponse.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		563F174428F7068DD1445395D426EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53EFC5D9DD3B27BBC35A5ED661EF60F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BA402B68438F0C7C6CE19FA3E938C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11C5B9E1EF4AD3A1F3222397E147EB91 /* Pods-Ping++支付 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11C5B9E1EF4AD3A1F3222397E147EB91 /* Pods-Ping++支付 */ = {
+			isa = PBXGroup;
+			children = (
+				EB9B51B2947A08EDE296A3248C060F2E /* Pods-Ping++支付-acknowledgements.markdown */,
+				6A4B47714C2625B438A1977FA5F2BD83 /* Pods-Ping++支付-acknowledgements.plist */,
+				1104F38AFBB3F33A58E6B712CDF4A730 /* Pods-Ping++支付-dummy.m */,
+				3A3ECAABB1EC601ED28350D6E20C38C1 /* Pods-Ping++支付-frameworks.sh */,
+				B0882A311111800A230F5A2686049417 /* Pods-Ping++支付-resources.sh */,
+				B8B3EEA6EB7A37BF2EB00DFB55F2A54C /* Pods-Ping++支付.debug.xcconfig */,
+				4772432E52E76A13D560867596772372 /* Pods-Ping++支付.release.xcconfig */,
+			);
+			name = "Pods-Ping++支付";
+			path = "Target Support Files/Pods-Ping++支付";
+			sourceTree = "<group>";
+		};
+		30CC87A15DEDADF298A8612D88D9E105 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				DDB05BDF2CE2E188245C078F3EACD10F /* Frameworks */,
+				5990FAEBE9B69E18FF9E920AEAFF822D /* Resources */,
+			);
+			name = Alipay;
+			sourceTree = "<group>";
+		};
+		34B91F648C59A74B8BF282A699613D44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				367D76BB4F363932DD72451B305765A9 /* libPaymentControl.a */,
+				02B02264F156D6A547C6048EE6916D17 /* libpingpp+up.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		457D091BD747780BE348F5315D366F1A /* One */ = {
+			isa = PBXGroup;
+			children = (
+				ABD83FF087F2AD5CD2E75E9EB34958B2 /* Pingpp+One.h */,
+				8DAB90C9F1C802E1210E7D5736F799E0 /* Frameworks */,
+			);
+			name = One;
+			sourceTree = "<group>";
+		};
+		5990FAEBE9B69E18FF9E920AEAFF822D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF9FEB542EFED88C9C9430B70F04C2 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				854F67FE02FB0D037300FB4CFDDF7956 /* Pods */,
+				92257DAB7208FDD1988DA0C323D23910 /* Products */,
+				11BA402B68438F0C7C6CE19FA3E938C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		854F67FE02FB0D037300FB4CFDDF7956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF33C0807E997275636E8C7119F22256 /* Pingpp */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85DA7A32DD739943C6E4DF4369109E75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				933288FAA4114A774EA5515AB95E94DC /* Pingpp.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8DAB90C9F1C802E1210E7D5736F799E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D8D34EC88E167FAF4BDD3B9F5D55EEA /* libpingpp+one.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92257DAB7208FDD1988DA0C323D23910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB68204DBF211A2407D69AE10EA6B92 /* libPods-Ping++支付.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96669432F4DC782F014C579F37BC2050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3518942243D3BADD47FEC35FEE2CABAF /* libpingppcore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8C58DA7B0E42692EACFB58A1D3F6C60 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F6ED23B08A6477FA0239D96181134A5A /* PingppURLResponse.h */,
+				D655B2429D5B5CAC44DD3C7FF4B2F9BE /* Frameworks */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D655B2429D5B5CAC44DD3C7FF4B2F9BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014CA246F0C2733DFAE7BEF88A9CCAE8 /* libpingpp+network.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDB05BDF2CE2E188245C078F3EACD10F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6124E43EDD91707C62E9AD6EDE20DCD3 /* AlipaySDK.framework */,
+				5FAEA2C6E3936BBD79963755152ACD6F /* libpingpp+alipay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E48BC87707E5B69D53479A52A6B285C3 /* UnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				34B91F648C59A74B8BF282A699613D44 /* Frameworks */,
+			);
+			name = UnionPay;
+			sourceTree = "<group>";
+		};
+		F3034063F9659C9DB1F67597E5C97783 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9DDB31A38B242EC8A8A1BBB57D351CCA /* Pingpp.h */,
+				96669432F4DC782F014C579F37BC2050 /* Frameworks */,
+				85DA7A32DD739943C6E4DF4369109E75 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FF33C0807E997275636E8C7119F22256 /* Pingpp */ = {
+			isa = PBXGroup;
+			children = (
+				30CC87A15DEDADF298A8612D88D9E105 /* Alipay */,
+				F3034063F9659C9DB1F67597E5C97783 /* Core */,
+				A8C58DA7B0E42692EACFB58A1D3F6C60 /* Network */,
+				457D091BD747780BE348F5315D366F1A /* One */,
+				E48BC87707E5B69D53479A52A6B285C3 /* UnionPay */,
+			);
+			path = Pingpp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB70F15AB231F6398296E96AE130D709 /* Pods-Ping++支付 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F396F13C3D1DFDEE71159866D831976F /* Build configuration list for PBXNativeTarget "Pods-Ping++支付" */;
+			buildPhases = (
+				74DD15EA5C7146375945CD038A457193 /* Sources */,
+				563F174428F7068DD1445395D426EE38 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Ping++支付";
+			productName = "Pods-Ping++支付";
+			productReference = 2AB68204DBF211A2407D69AE10EA6B92 /* libPods-Ping++支付.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 92257DAB7208FDD1988DA0C323D23910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB70F15AB231F6398296E96AE130D709 /* Pods-Ping++支付 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DD15EA5C7146375945CD038A457193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34180CE0A067120AD549F5B5D62FCCDF /* Pods-Ping++支付-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A5C001337ACB0B5AFB61F0A6164C05C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4772432E52E76A13D560867596772372 /* Pods-Ping++支付.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A6E5D38087A1F2B5C82453E18BC72C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B3EEA6EB7A37BF2EB00DFB55F2A54C /* Pods-Ping++支付.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F396F13C3D1DFDEE71159866D831976F /* Build configuration list for PBXNativeTarget "Pods-Ping++支付" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E5D38087A1F2B5C82453E18BC72C5A /* Debug */,
+				A5C001337ACB0B5AFB61F0A6164C05C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

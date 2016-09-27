@@ -1,0 +1,6 @@
+framework module Pods_UDP___ {
+  umbrella header "Pods-UDP套接字-umbrella.h"
+
+  export *
+  module * { export * }
+}

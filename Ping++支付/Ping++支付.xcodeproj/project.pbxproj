@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF9094CD4BA2C6E9334C0CC7 /* libPods-Ping++支付.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7142DA28F7E907C0C62ACF0D /* libPods-Ping++支付.a */; };
+		CC7D00011D97792600FBB949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7DFFFF1D97792600FBB949 /* Main.storyboard */; };
+		CC7D00031D97792600FBB949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7D00021D97792600FBB949 /* Assets.xcassets */; };
+		CC7D00061D97792600FBB949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7D00041D97792600FBB949 /* LaunchScreen.storyboard */; };
+		CC7DFFF81D97792600FBB949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7DFFF71D97792600FBB949 /* main.m */; };
+		CC7DFFFB1D97792600FBB949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7DFFFA1D97792600FBB949 /* AppDelegate.m */; };
+		CC7DFFFE1D97792600FBB949 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7DFFFD1D97792600FBB949 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32E62DE588D9EE6D26FDD4D2 /* Pods-Ping++支付.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping++支付.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ping++支付/Pods-Ping++支付.debug.xcconfig"; sourceTree = "<group>"; };
+		7142DA28F7E907C0C62ACF0D /* libPods-Ping++支付.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ping++支付.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D85D9CF3A43896E891FA05 /* Pods-Ping++支付.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping++支付.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ping++支付/Pods-Ping++支付.release.xcconfig"; sourceTree = "<group>"; };
+		CC7D00001D97792600FBB949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC7D00021D97792600FBB949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7D00051D97792600FBB949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC7D00071D97792600FBB949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7DFFF31D97792600FBB949 /* Ping++支付.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ping++支付.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7DFFF71D97792600FBB949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC7DFFF91D97792600FBB949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC7DFFFA1D97792600FBB949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC7DFFFC1D97792600FBB949 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC7DFFFD1D97792600FBB949 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7DFFF01D97792600FBB949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9094CD4BA2C6E9334C0CC7 /* libPods-Ping++支付.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0793567CCC5A05F30ED7BC17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32E62DE588D9EE6D26FDD4D2 /* Pods-Ping++支付.debug.xcconfig */,
+				B2D85D9CF3A43896E891FA05 /* Pods-Ping++支付.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EE9B35B3A064CABE4767DC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7142DA28F7E907C0C62ACF0D /* libPods-Ping++支付.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC7DFFEA1D97792600FBB949 = {
+			isa = PBXGroup;
+			children = (
+				CC7DFFF51D97792600FBB949 /* Ping++支付 */,
+				CC7DFFF41D97792600FBB949 /* Products */,
+				0793567CCC5A05F30ED7BC17 /* Pods */,
+				9EE9B35B3A064CABE4767DC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7DFFF41D97792600FBB949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7DFFF31D97792600FBB949 /* Ping++支付.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7DFFF51D97792600FBB949 /* Ping++支付 */ = {
+			isa = PBXGroup;
+			children = (
+				CC7DFFF91D97792600FBB949 /* AppDelegate.h */,
+				CC7DFFFA1D97792600FBB949 /* AppDelegate.m */,
+				CC7DFFFC1D97792600FBB949 /* ViewController.h */,
+				CC7DFFFD1D97792600FBB949 /* ViewController.m */,
+				CC7DFFFF1D97792600FBB949 /* Main.storyboard */,
+				CC7D00021D97792600FBB949 /* Assets.xcassets */,
+				CC7D00041D97792600FBB949 /* LaunchScreen.storyboard */,
+				CC7D00071D97792600FBB949 /* Info.plist */,
+				CC7DFFF61D97792600FBB949 /* Supporting Files */,
+			);
+			path = "Ping++支付";
+			sourceTree = "<group>";
+		};
+		CC7DFFF61D97792600FBB949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC7DFFF71D97792600FBB949 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7DFFF21D97792600FBB949 /* Ping++支付 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7D000A1D97792600FBB949 /* Build configuration list for PBXNativeTarget "Ping++支付" */;
+			buildPhases = (
+				61FCFFCE53C233E88AF2FD65 /* [CP] Check Pods Manifest.lock */,
+				CC7DFFEF1D97792600FBB949 /* Sources */,
+				CC7DFFF01D97792600FBB949 /* Frameworks */,
+				CC7DFFF11D97792600FBB949 /* Resources */,
+				D9B50FC079629E91372834E8 /* [CP] Embed Pods Frameworks */,
+				060DC204B5A0E5F8883A6E65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ping++支付";
+			productName = "Ping++支付";
+			productReference = CC7DFFF31D97792600FBB949 /* Ping++支付.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7DFFEB1D97792600FBB949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC7DFFF21D97792600FBB949 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CC7DFFEE1D97792600FBB949 /* Build configuration list for PBXProject "Ping++支付" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7DFFEA1D97792600FBB949;
+			productRefGroup = CC7DFFF41D97792600FBB949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7DFFF21D97792600FBB949 /* Ping++支付 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7DFFF11D97792600FBB949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7D00061D97792600FBB949 /* LaunchScreen.storyboard in Resources */,
+				CC7D00031D97792600FBB949 /* Assets.xcassets in Resources */,
+				CC7D00011D97792600FBB949 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060DC204B5A0E5F8883A6E65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ping++支付/Pods-Ping++支付-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61FCFFCE53C233E88AF2FD65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B50FC079629E91372834E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ping++支付/Pods-Ping++支付-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7DFFEF1D97792600FBB949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7DFFFE1D97792600FBB949 /* ViewController.m in Sources */,
+				CC7DFFFB1D97792600FBB949 /* AppDelegate.m in Sources */,
+				CC7DFFF81D97792600FBB949 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC7D00041D97792600FBB949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7D00051D97792600FBB949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CC7DFFFF1D97792600FBB949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7D00001D97792600FBB949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC7D00081D97792600FBB949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC7D00091D97792600FBB949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7D000B1D97792600FBB949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E62DE588D9EE6D26FDD4D2 /* Pods-Ping++支付.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ping++支付/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zbf.Ping----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC7D000C1D97792600FBB949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D85D9CF3A43896E891FA05 /* Pods-Ping++支付.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ping++支付/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zbf.Ping----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7D000A1D97792600FBB949 /* Build configuration list for PBXNativeTarget "Ping++支付" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7D000B1D97792600FBB949 /* Debug */,
+				CC7D000C1D97792600FBB949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7DFFEE1D97792600FBB949 /* Build configuration list for PBXProject "Ping++支付" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7D00081D97792600FBB949 /* Debug */,
+				CC7D00091D97792600FBB949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC7DFFEB1D97792600FBB949 /* Project object */;
+}
